@@ -1,0 +1,10 @@
+{
+  "name": "mern-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd backend && npm start",
+    "postinstall": "cd backend && npm install",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  }
+}
