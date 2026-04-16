@@ -280,8 +280,7 @@ function App() {
         <div className="about-grid">
           <div className="about-img-wrap reveal-left">
             <div className="about-img-frame">
-              <i className="fas fa-user-circle" />
-              <span className="placeholder-text">// upload your photo</span>
+              <img src="/assets/me.png" alt="Chand Ali" className="about-img-image" />
             </div>
             <div className="about-corner" />
           </div>
